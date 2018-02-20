@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Defaults:1F8E0C02-58A9-4E34-AE22-2B63745FA101</key>
+	<dict>
+		<key>AndroidDiskOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid androidboot.hardware=android_x86 ro SRC=$path</string>
+		<key>AndroidDiskTemplate</key>
+		<string>$label</string>
+		<key>BootEntryTemplate</key>
+		<string>$label</string>
+		<key>DarwinCoreStorageTemplate</key>
+		<string>$label</string>
+		<key>DarwinDiskTemplate</key>
+		<string>$label</string>
+		<key>DarwinRecoveryDiskTemplate</key>
+		<string>$label ($platform.$major.$minor)</string>
+		<key>LinuxDiskOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid ro</string>
+		<key>LinuxDiskTemplate</key>
+		<string>$label $build</string>
+		<key>LinuxRescueDiskTemplate</key>
+		<string>$label Rescue</string>
+		<key>LinuxRescueOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid ro</string>
+	</dict>
+	<key>Defaults:4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+	<dict>
+		<key>BaseBoardAssetTag</key>
+		<string>Base Board Asset Tag#</string>
+		<key>BaseBoardSerial</key>
+		<string>F5K401701GUDM658C</string>
+		<key>BiosDate</key>
+		<string>08/08/2017</string>
+		<key>BiosVersion</key>
+		<string>MP61.88Z.0120.B00.1708080652</string>
+		<key>BoardVersion</key>
+		<string>Proto1</string>
+		<key>ChassisAssetTag</key>
+		<string>Pro-Enclosure</string>
+		<key>CpuType</key>
+		<data>AQo=</data>
+		<key>EnclosureType</key>
+		<integer>11</integer>
+		<key>FirmwareFeatures</key>
+		<integer>3893354806</integer>
+		<key>FirmwareFeaturesMask</key>
+		<integer>4280287039</integer>
+		<key>FirmwareRevision</key>
+		<integer>65546</integer>
+		<key>FirmwareVendor</key>
+		<string>Apple</string>
+		<key>HardwareAddress</key>
+		<string>61:B3:B9:84:03:E8</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ProcessorSerial</key>
+		<string>F5K401701GUDM658C</string>
+		<key>ProductFamily</key>
+		<string>Mac Pro</string>
+		<key>ProductId</key>
+		<string>Mac-F60DEB81FF30ACF6</string>
+		<key>ProductName</key>
+		<string>MacPro6,1</string>
+		<key>SystemSKU</key>
+		<string>BDF819F4-06C0-4D49-943A-1A23E8B20928</string>
+		<key>SystemSerial</key>
+		<string>F5KM229OF9VM</string>
+		<key>SystemVersion</key>
+		<string>1.0</string>
+	</dict>
+	<key>Defaults:7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+	<dict>
+		<key>boot-args</key>
+		<string>nvda_drv=1 npci=0x3000 kext-dev-mode=1</string>
+		<key>csr-active-config</key>
+		<integer>103</integer>
+	</dict>
+	<key>Timestamp</key>
+	<integer>0</integer>
+	<key>Version</key>
+	<string>1.0.1</string>
+</dict>
+</plist>
