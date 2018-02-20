@@ -169,7 +169,7 @@ Ozmosis 会在刷好ROM第一次开机时，或者NVRAM被清空后，在它识�
 
 ### 1.5.1 核心模块：
 
-所有核心模块位于`Modules/core.zip`中。无论使用什么主板，这些都是必须的。
+所有核心模块位于`Modules/core/`中。无论使用什么主板，这些都是必须的。
 
 要么插入到ROM中，要么使用UEFI SHELL加载。
 
@@ -189,7 +189,7 @@ Ozmosis 会在刷好ROM第一次开机时，或者NVRAM被清空后，在它识�
 
 ### 1.5.2 可选模块：
 
-所有可选模块位于`Modules/optional.zip`中。这些因主板而异，如果空间不足，可以不插入ROM中。
+所有可选模块位于`Modules/optional/`中。这些因主板而异，如果空间不足，可以不插入ROM中。
 
 - `OzmosisHorizontalTheme.ffs`：Ozmosis 主题。
 
